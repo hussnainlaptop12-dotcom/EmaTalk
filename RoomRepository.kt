@@ -20,12 +20,9 @@ class RoomRepository {
                 onSuccess()
 
             }
-            .addOnFailureListener {
-
-                onFailure(it)
-
-            }
-
+       .addOnFailureListener {
+    // handle error
+}
     }
 
     fun getRooms(onResult: (List<RoomModel>) -> Unit) {
