@@ -4,8 +4,7 @@ data class RoomModel(
 
     val roomId: String = "",
     val roomName: String = "",
-    val hostUid: String = "",
-    val hostName: String = "",
+val hostId: String = "",    val hostName: String = "",
     val category: String = "",
     val description: String = "",
     val roomType: String = "Public",
