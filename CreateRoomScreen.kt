@@ -167,7 +167,7 @@ fun CreateRoomScreen(
                     val room = RoomModel(
                         roomId = UUID.randomUUID().toString(),
                         roomName = roomName,
-                        hostUid = auth.currentUser?.uid ?: "",
+                         hostId = auth.currentUser?.uid ?: "",
                         hostName = auth.currentUser?.email ?: "",
                         category = category,
                         description = description,
